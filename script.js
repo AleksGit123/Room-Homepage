@@ -24,7 +24,7 @@ arrowLeft.addEventListener("click",()=>{
     if(index<0){
         index = scrollImages.length-1;
     }
-
+    imageDiv.style.backgroundImage = `url(${scrollImages[index]})`;
     console.log(index)
 })
 
